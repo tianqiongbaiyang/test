@@ -1,5 +1,5 @@
 function test($string){
-  $count = count($string);
+  $count = strlen($string);
   $mod_value = $count%3;
   
   if($mod_value != 0){
