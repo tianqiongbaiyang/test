@@ -11,6 +11,6 @@ function test($string){
   }
  $string = chunk_split($string, 3, ' ');
  
- return ltrim($string);
+ return trim($string);
 
 }
